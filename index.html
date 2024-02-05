@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Turismo reponsive website build using HTML5, CSS3 and Javascript. The complete layout of the page is build using grid layout and flexbox with some cool animations"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="font/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <title>Tour Anambra</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="navigation">
+          <div class="logo">Tour-Anambra</div>
+          <img
+            src="img/nav-icon.svg"
+            class="nav-icon"
+            alt="navigation icon"
+            width="30"
+            height="30"
+          />
+          <ul>
+            <li>
+              <a href="#home"> Home </a>
+            </li>
+            <li>
+              <a href="#about"> About </a>
+            </li>
+            <li>
+              <a href="#tours"> Tours </a>
+            </li>
+            <li>
+              <a href="#offers"> Offers </a>
+            </li>
+            <li>
+             
+              <button class="btn" > <a href="https://3l4pewmv4sj.typeform.com/to/UcUJ9mBP">Sign up</a></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- SECTION HERO -->
+      <section class="section-hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="heading heading--1 margin-bottom">
+              Uncover Anambra: Where Culture and Adventure Collide for the Ultimate Exploration!
+            </h1>
+            <button class="btn">Explore now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION SEARCH -->
+      <section class="section-search">
+        <div class="container search-box">
+          <div class="wrapper">
+            <h3>Destination</h3>
+            <div class="custom-select">
+              <select>
+                <option value="england">Ogbunike Cave</option>
+                <option value="france">Awka Wonderland</option>
+                <option value="italy">Ogbaukwu cave and waterfall</option>
+                <option value="india">Agu eke forest Agulu</option>
+                <option value="india">Eze Okpoko 1 mausoleum</option>
+                <option value="maldives">Owerri-ezukala cafe & waterfall</option>
+              </select>
+              <span class="arrow"></span>
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <h3>Date</h3>
+            <div class="custom-date">
+              <input type="date" id="date" />
+              <img src="./img/calendar.svg" alt="" class="calender-icon" />
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <h3>Average Price</h3>
+            <div class="custom-select">
+              <select>
+                <option value="$200">$200 - $300</option>
+                <option value="$500">$400 - $500</option>
+                <option value="$1000">$600 - $700</option>
+              </select>
+              <span class="arrow"></span>
+            </div>
+          </div>
+          <button class="btn">Search</button>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="container about-box" data-aos="fade-up">
+          <div class="about-box__heading">
+            <h3 class="color-blue margin-bottom">About us</h3>
+            <div class="heading heading--1 capitalize">
+              Explore all corners of Anambra State Nigeria with us.
+            </div>
+          </div>
+          <div class="about-box__content">
+            <p class="margin-bottom">
+              Welcome to Tour-Anambra, your gateway to an unforgettable journey through the vibrant heart of Nigeria. At Tour-Anambra, we believe that every traveler is a storyteller, 
+              and we're here to help you craft your own unique narrative. We are committed to enriching lives through immersive travel experiences, we are committed to showcasing the cultural, historical, and natural wonders of Anambra State. Our mission is to provide you with more than just destinations;
+               we offer journeys that leave a lasting impact.
+            </p>
+            <button class="btn btn--secondary">Read More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION TOURS -->
+      <section class="section-tours" id="tours">
+        <div class="container tour-box" data-aos="fade-up">
+          <header class="tour-box__heading">
+            <h2 class="heading heading--2 color-blue margin-bottom">
+              our top tours
+            </h2>
+            <p>
+              Explore the extraordinary with our top tours – where each destination is a masterpiece,
+               and every moment is a chapter in your unforgettable journey.
+            </p>
+          </header>
+
+          <article class="tour-box__cards">
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/WhatsApp Image 2024-01-31 at 2.57.10 AM(1).jpeg"
+                alt="england"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Ogbaukwu Cave waterfall</h3>
+                  <p class="price">$100</p>
+                </div>
+
+                <div class="t-card__description">
+                  The ambigence, the serenity and solitude found in the Ogbaukwu Cave Waterfallis not one to miss out on.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">5 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/WhatsApp Image 2024-01-31 at 2.57.00 AM.jpeg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.9k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/WhatsApp Image 2024-01-31 at 2.57.02 AM(2).jpeg"
+                alt="france"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Awka Town Night-Life</h3>
+                  <p class="price">$50</p>
+                </div>
+
+                <div class="t-card__description">
+                  What will an adventure or tourism be without a corresponding wild and lively nightlife 
+                  in the heart of the state.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">6 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/WhatsApp Image 2024-01-31 at 2.57.04 AM(1).jpeg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.9k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/WhatsApp Image 2024-01-31 at 2.57.06 AM.jpeg"
+                alt="ITALY"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Owerri-Ezukala Waterfall</h3>
+                  <p class="price">$200</p>
+                </div>
+
+                <div class="t-card__description">
+                  Tour the sorrounging terrains of the Owerri-Ezukala waterfall with the lush hills and valleys.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">3 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/WhatsApp Image 2024-01-31 at 2.57.04 AM.jpeg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.8k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/WhatsApp Image 2024-01-31 at 2.57.09 AM.jpeg"
+                alt="india"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Ogbunike cave,Ogbunike.</h3>
+                  <p class="price">$150</p>
+                </div>
+
+                <div class="t-card__description">
+                  An adventure isn't complete without a visit to lengendary Ogunike cave.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">7 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/WhatsApp Image 2024-01-31 at 2.57.10 AM(1).jpeg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.8k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/Riverimage.jpeg"
+                alt="spain"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Agulu Lake,Agulu</h3>
+                  <p class="price">$100</p>
+                </div>
+
+                <div class="t-card__description">
+                  Nature at its finest with Crocodiles to engage your taste for Wildlife
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">5 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/image2.jpeg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.7k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/WhatsApp Image 2024-01-31 at 2.57.04 AM.jpeg"
+                alt="maldives"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Awka Metropolitan City</h3>
+                  <p class="price">$150</p>
+                </div>
+
+                <div class="t-card__description">
+                  Explore the hustle and bustle of an everyday igbo cummunity in the 
+                  Awka town from the markets to the recreational centers to the beautiful nightlife and our native food.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">2 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/WhatsApp Image 2024-01-31 at 2.57.04 AM(1).jpeg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.8k
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offers">
+        <div class="container offer-box">
+          <div class="offer-box__percentage" data-aos="zoom-in">50%</div>
+          <div class="offer-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              Special Offer this month on our tours $50-$150
+            </h2>
+            <p>
+               Experience Nature and Wildlife with our tourist attraction 
+               centers with amenities that makes you feel 
+               not too far away frome Home!
+            </p>
+            <button class="btn">book Now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION REVIEW -->
+      <section class="section-review">
+        <div class="container review-box" data-aos="fade-up">
+          <header class="review-header">
+            <h3 class="color-blue">Our Reviews</h3>
+            <h2 class="heading heading--2">What the people say about us</h2>
+          </header>
+
+          <article class="review-cards">
+            <div class="r-card">
+              <img
+                src="img/Igbo groom attire_ Lion head attire. Isiagu for Igbo men. African men's wear.grooms outfit.African traditional wear.jpeg"
+                alt=""
+                class="r-card__img"
+                width="90"
+                height="90"
+              />
+              <div class="r-card__name">Chijoke Arinze</div>
+              <span class="quot">&#8223;</span>
+              <div class="r-card__description">
+               One of the best tourist experience i have ever had!
+              </div>
+              <div class="r-card__rating">
+                <img
+                  src="img/star-grp.svg"
+                  alt="star"
+                  width="100"
+                  height="30"
+                />
+              </div>
+            </div>
+
+            <div class="r-card">
+              <img
+                src="img/African Bride.jpeg"
+                alt=""
+                class="r-card__img"
+                width="90"
+                height="90"
+              />
+              <div class="r-card__name">Chinecherem Yusuf</div>
+              <span class="quot">&#8223;</span>
+              <div class="r-card__description">
+                When looking for a place to relax, unwind and experience nature
+                 Anambra state is a must visit.
+              </div>
+              <div class="r-card__rating">
+                <img
+                  src="img/star-grp.svg"
+                  alt="star"
+                  width="100"
+                  height="30"
+                />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- SECTION FOOTER -->
+    <footer class="section-footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="heading heading--2 margin-bottom">Tourism</h2>
+          <ul class="contact-data">
+            <li class="location">Diana Plaza,188 ziks Avenue Awka, Anambra State</li>
+            <li class="phone">+2348079637926</li>
+            <li class="email">touranmabra58@gmail.com</li>
+            <li class="social">
+              <img
+                src="./img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-twitter.svg"
+                alt="twitter icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Popular Destination</div>
+          <ul>
+            <li><a href="#tours">Ogbaukwu Cave waterfall</a></li>
+            <li><a href="#tours">Awka Town Night Life</a></li>
+            <li><a href="#tours">Owerri-Ezukala Waterfall</a></li>
+            <li><a href="#tours">Ogbunike cave, Ogbunike</a></li>
+            <li><a href="#tours">Agulu lake,Agulu</a></li>
+          </ul>
+        </nav>
+
+        <div class="newsletter">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+            Sign up to our email newsletter and get updates from us for our 
+            different tour packages and price with discounts
+          </div>
+          <form class="newsletter__input">
+            <input type="text" placeholder="touranmabra58@gmail.com" />
+            <img
+              src="./img/send.svg"
+              alt="send icon"
+              class="send-icon"
+              width="36"
+              height="36"
+            />
+          </form>
+        </div>
+
+        <div class="legel">
+          <p class="text">Copyright Reserved; by Tour-Anambra</p>
+          <a href="https://admin.typeform.com/form/UcUJ9mBP/create">
+            <img
+              src="img/github.svg"
+              alt="github"
+              class="github"
+              width="35"
+              height="35"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="index.js"></script>
+  </body>
+</html>
